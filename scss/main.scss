@@ -1,0 +1,58 @@
+
+@import"./blocks/_navbar";
+@import"./blocks/hero";
+@import"./blocks/posts";
+@import"./blocks/works";
+@import"./blocks/media";
+@import"./blocks/block";
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    padding-left: 145px;
+    padding-right: 145px;
+    
+}
+
+
+
+@media (max-width:365px) {
+    .container{
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+}
+
+
+
+@media (max-width:900px) {
+    main{
+        .container{
+            padding-left: 50px;
+            padding-right: 50px;
+
+        }
+    
+    }
+    
+        .cards_all{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        
+    }
+
+    @media (max-width:500px) {
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }

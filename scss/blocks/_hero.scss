@@ -1,0 +1,141 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 140px;
+
+    .hero-right{
+        max-width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+
+
+    .hero-left{
+
+        h2{
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 60px;
+            color:#000;
+            max-width:430px;
+
+
+        }
+        p{
+            max-width: 497px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color:#21243D;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .hero-btn{
+            padding: 9px 21px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color:#fff;
+            border-radius: 8px;
+            border:none;
+            background-color: #FF6464;
+            cursor: pointer;
+
+        }
+        .hero-btn:hover{
+            background: rgb(136, 14, 61);
+            transition: all 0.5s linear;
+        }
+    }
+}
+
+
+
+
+@media (max-width:1050px) {
+
+    .hero-left{
+        h2{
+            font-size: 24px;
+            line-height: 34px;
+            max-width: 300px;
+        }
+
+        p{
+            max-width: 307px;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 14px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    
+}
+
+@media (max-width:900px) {
+    .hero{
+        padding: 20px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    .hero-right{
+        padding: 40px 20px;
+    }
+
+  
+}
+
+
+@media (max-width:600px) {
+
+    .container{
+        padding-left: 50px;
+        padding-right: 50px;
+
+        .hero{
+            .hero-right{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                img{
+                    width: 115px;
+                    height: 115px;
+                }
+            }
+
+            .hero-left{
+                padding: 10px;
+                h2{
+                    font-size: 22px;
+                    line-height: 26px;
+                    max-width: 250px;
+                }
+        
+                p{
+                    max-width: 257px;
+                    font-size: 16px;
+                    line-height: 
+                    23.5px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+
+                .hero-btn{
+                    padding: 10px 15px;
+                    font-size: 14px;
+                   line-height: 15px;
+                }
+            }
+        }
+    }
+    
+}
+
+

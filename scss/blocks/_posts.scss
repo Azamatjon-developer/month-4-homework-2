@@ -1,0 +1,85 @@
+
+main{
+    background-color: #EDF7FA;
+
+}.posts{
+    margin-top: 100px;
+    padding-bottom: 32px;
+    .cards_all{
+        max-width: 900px;
+        display: flex;
+        gap: 20px;
+    }
+
+
+    .posts_top{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-top: 17px;
+        padding-bottom: 17px;
+       h3{
+        text-align: center;
+        font-weight: 400;
+        font-size: 22px;
+       }
+}
+
+.cards_all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.posts_cards{
+    max-width: 418px;
+    background-color: #fff;
+
+
+    h2{
+        max-width: 374px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 39px;
+        color:#21243D;
+        padding: 24px 21px 17px 23px;
+
+
+    }
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 24px 21px 17px 23px;
+
+    }
+}
+}
+
+@media (max-width:900px) {
+
+    .posts{
+
+        .posts_top{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            h3{
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+       
+        .cards_all{
+            display: flex;
+            justify-content: center;
+            align-content:center;
+
+            
+        }
+}
+
+}

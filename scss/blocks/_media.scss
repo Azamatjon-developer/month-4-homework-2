@@ -1,0 +1,31 @@
+.media{
+    padding: 87px 50px;
+    background-color: #fff;
+    
+    
+    .media-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         gap: 35px;
+        font-size: 20px;
+        cursor: pointer;
+
+
+    }
+
+    .media-icons:hover{
+        color:#680692;
+        transition: all 0.7s linear;
+        
+    }
+
+    p{
+        text-align: center;
+        padding-top: 26px;  
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+    }
+}
